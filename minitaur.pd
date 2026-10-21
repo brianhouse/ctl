@@ -1,7 +1,7 @@
 #N canvas 0 50 751 249 10;
 #X declare -path ctl;
 #X obj 250 49 cnv 15 250 200 empty empty FILTER 19 16 0 14 #693f08 #e1e1e1 0;
-#X obj 501 49 cnv 15 250 200 empty empty AMP 19 16 0 14 #691d2a #e1e1e1 0;
+#X obj 501 49 cnv 15 250 200 empty empty AMP\ +\ LFO 19 16 0 14 #691d2a #e1e1e1 0;
 #X obj -1 49 cnv 15 250 200 empty empty OSC 19 16 0 14 #214969 #e1e1e1 0;
 #X obj 17 78 ctl.radio \$0 70 0 Saw Sqr;
 #X obj 17 120 ctl.radio \$0 71 0 Saw Sqr;

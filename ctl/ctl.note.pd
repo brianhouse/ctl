@@ -1,0 +1,12 @@
+#N canvas 0 50 450 300 10;
+#X obj 16 1 bng 16 250 50 0 empty empty \$2 -15 9 0 10 #191919 #e1e1e1 #e1e1e1;
+#X obj 38 5 cnv 1 1 1 empty empty \$3 0 4 0 11 #555555 #e1e1e1 0;
+#X obj 20 100 f \$2;
+#X obj 20 130 makenote 127 100;
+#X obj 20 170 noteout \$4;
+#X text 150 100 ctl.note ns note name channel: click to play the note (velocity 127 \, 100 ms);
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 1 4 1;
+#X coords 0 -1 1 1 64 18 2 -1 0;
